@@ -27,4 +27,11 @@ To deploy script, you need kvm/qemu to install the required packages.
 you can see https://fabianlee.org/2018/08/27/kvm-bare-metal-virtualization-on-ubuntu-with-kvm/
 
 
+```
+sudo -i
+```
+```
+bash init.sh
+```
+
 

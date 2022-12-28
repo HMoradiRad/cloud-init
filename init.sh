@@ -31,8 +31,11 @@ var1=$(echo $ImageName | cut -f1 -d.)
 
 sudo apt-get install -y cloud-image-utils
 
+
+read -p "please insert size for root file system (exampel:10G):  " size
+
 #create snapshot and make it 10G
-qemu-img create -b $ImageName -f qcow2 -F qcow2 snapshot-$var1.qcow2 10G
+qemu-img create -b $ImageName -f qcow2 -F qcow2 snapshot-$var1.qcow2 $size
 
 # show snapshot info
 qemu-img info snapshot-$var1.qcow2

@@ -36,4 +36,12 @@ git clone https://github.com/HMoradiRad/cloud-init.git
 bash init.sh
 ```
 
+# How to contribute
+All contributions are welcomed. If you find any bugs, please file an issue.
+
+moradiradpv@gmail.com
+
+
+
+
 

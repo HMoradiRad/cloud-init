@@ -1,10 +1,8 @@
 #!/bin/bash
+mkdir /opt/cloud_init
 cd /opt/cloud_init
 read -p "please instert your link for download : " url
 ImageName=`echo "$url" | awk -F/ '{print $6}'`
-
-#FILE="/opt/cloud_init/$ImageName.img"
-
 
 
 if [ ! -f /opt/cloud_init/$ImageName ]

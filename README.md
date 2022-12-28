@@ -26,9 +26,11 @@ Warning: Never use qemu-img to modify images in use by a running virtual machine
 To deploy script, you need kvm/qemu to install the required packages.
 you can see https://fabianlee.org/2018/08/27/kvm-bare-metal-virtualization-on-ubuntu-with-kvm/
 
-
 ```
 sudo -i
+```
+```
+git clone https://github.com/HMoradiRad/cloud-init.git
 ```
 ```
 bash init.sh

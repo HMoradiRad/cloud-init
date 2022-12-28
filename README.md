@@ -1,6 +1,13 @@
 # cloud-init
 cloud-init is a software package that automates the initialization of cloud instances during system boot. 
 You can configure cloud-init to perform a variety of tasks.
+In order to be able to provide the functionality that it does, cloud-init must be integrated into the boot in fairly controlled way. There are five stages to boot:
+
+1)Generator
+2)Local
+3)Network
+4)Config
+5)Final
 
 # what is Qemu 
 

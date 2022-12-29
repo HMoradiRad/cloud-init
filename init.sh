@@ -14,8 +14,8 @@ else
 	echo "are you sure download again? "
 	select i in yes no
 	do
-		ask=$REPLY
-		if [ $ask -eq 1 ]
+		Answer=$REPLY
+		if [ $Answer -eq 1 ]
 		then
 			wget $url
 		else
